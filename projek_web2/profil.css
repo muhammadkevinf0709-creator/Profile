@@ -1,0 +1,57 @@
+*,
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+.img_container {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+
+.welcome {
+    font-family: 'Times New Roman', serif;
+    color: black;
+    margin-top: 5px;
+    margin: 10px auto;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px auto;
+}
+
+.icon-wraper {
+    background-color: gray;
+    border-radius: 15px;
+}
+
+.icon-wraper a {
+    line-height: 0;
+    display: flex;
+    justify-content:center;
+    align-items: center;       
+}
+
+.icon {
+    width: 44px;
+    height: 44px;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 6px;
+    object-fit: contain;
+    box-sizing: border-box;
+    margin: 5px;
+}
+
